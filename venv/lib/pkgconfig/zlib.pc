@@ -1,0 +1,13 @@
+prefix=/Users/dhirajbhagat/Desktop/WebScrapping/venv
+exec_prefix=/Users/dhirajbhagat/Desktop/WebScrapping/venv
+libdir=/Users/dhirajbhagat/Desktop/WebScrapping/venv/lib
+sharedlibdir=/Users/dhirajbhagat/Desktop/WebScrapping/venv/lib
+includedir=/Users/dhirajbhagat/Desktop/WebScrapping/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
